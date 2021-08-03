@@ -40,7 +40,7 @@ def handler():
                 print("View botter has been chosen! Use Ctrl + C to exit the program and stop view botting. Or wait for views to finish botting and then press enter.")
                 Views.run(target)
 
-            elif command.lower() == "3":
+            elif command.lower() == "2":
                 clean()    
         
         except KeyboardInterrupt as err:
